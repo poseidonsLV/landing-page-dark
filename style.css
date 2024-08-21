@@ -45,11 +45,18 @@ body{
 .nav-group-item a {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 550;
+  transition: all .45s;
 }
-.nav-group-item:hover{
+.nav-group-item a:hover{
   border: 1px solid white;
   background: #1a3c70;
-  color: hsl(218, 28%, 13%);
+  color: white;
 }
 
 /* MOBILE NAVBAR STYLES */
